@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-from waitress import serve
 
 from weather import get_weather
 
